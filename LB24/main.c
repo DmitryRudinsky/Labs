@@ -20,19 +20,10 @@ int main() {
     TreeStack_handle treeStack = treeStack_init(10);
 
     while (*ptr != '\0') {
-        Token tk = create_token(&ptr);
-        if (tk.type == INT) {
-            printf("Token type: %d, Token value: %d\n", tk.type, tk.value);
-            add_token_to_treeStack(treeStack, tk);
-        } else if (tk.type == COMBINED) {
-            printf("Token type: %d, Token name: %s\n", tk.type, tk.name);
-            add_token_to_treeStack(treeStack, tk);
-        } else {
-            printf("Token type: %d\n", tk.type);
-            add_token_to_operations(operationStack, tk);
-        }
+        Token token = create_token(&ptr);
+        work_with_token(token, operationStack, treeStack);
+        print_operation_stack(operationStack);
     }
-    print_operation_stack(operationStack);
 
     print_tree_stack(treeStack);
 

@@ -8,7 +8,6 @@
 #ifndef C_HOOD_H
 #define C_HOOD_H
 
-void add_token_to_operations(Operation_stack_handle operationStack, Token token);
-void add_token_to_treeStack(TreeStack_handle treeStack, Token token);
+void work_with_token(Token token, Operation_stack_handle operationStack, TreeStack_handle treeStack);
 
 #endif //C_HOOD_H
