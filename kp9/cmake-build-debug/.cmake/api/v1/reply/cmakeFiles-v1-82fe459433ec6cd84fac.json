@@ -1,0 +1,111 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.26.4/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/\u0414\u0438\u043c\u0430/AppData/Local/JetBrains/CLion2023.2/cygwin_cmake/share/cmake-3.26.4/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.26.4/CMakeCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/\u0414\u0438\u043c\u0430/AppData/Local/JetBrains/CLion2023.2/cygwin_cmake/share/cmake-3.26.4/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/\u0414\u0438\u043c\u0430/AppData/Local/JetBrains/CLion2023.2/cygwin_cmake/share/cmake-3.26.4/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/\u0414\u0438\u043c\u0430/AppData/Local/JetBrains/CLion2023.2/cygwin_cmake/share/cmake-3.26.4/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/\u0414\u0438\u043c\u0430/AppData/Local/JetBrains/CLion2023.2/cygwin_cmake/share/cmake-3.26.4/Modules/Platform/CYGWIN.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/\u0414\u0438\u043c\u0430/AppData/Local/JetBrains/CLion2023.2/cygwin_cmake/share/cmake-3.26.4/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/\u0414\u0438\u043c\u0430/AppData/Local/JetBrains/CLion2023.2/cygwin_cmake/share/cmake-3.26.4/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/\u0414\u0438\u043c\u0430/AppData/Local/JetBrains/CLion2023.2/cygwin_cmake/share/cmake-3.26.4/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/\u0414\u0438\u043c\u0430/AppData/Local/JetBrains/CLion2023.2/cygwin_cmake/share/cmake-3.26.4/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/\u0414\u0438\u043c\u0430/AppData/Local/JetBrains/CLion2023.2/cygwin_cmake/share/cmake-3.26.4/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/\u0414\u0438\u043c\u0430/AppData/Local/JetBrains/CLion2023.2/cygwin_cmake/share/cmake-3.26.4/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/\u0414\u0438\u043c\u0430/AppData/Local/JetBrains/CLion2023.2/cygwin_cmake/share/cmake-3.26.4/Modules/Platform/CYGWIN-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/\u0414\u0438\u043c\u0430/AppData/Local/JetBrains/CLion2023.2/cygwin_cmake/share/cmake-3.26.4/Modules/Platform/CYGWIN-GNU.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.26.4/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/\u0414\u0438\u043c\u0430/AppData/Local/JetBrains/CLion2023.2/cygwin_cmake/share/cmake-3.26.4/Modules/CMakeRCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/\u0414\u0438\u043c\u0430/AppData/Local/JetBrains/CLion2023.2/cygwin_cmake/share/cmake-3.26.4/Modules/Platform/CYGWIN-windres.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/\u0414\u0438\u043c\u0430/AppData/Local/JetBrains/CLion2023.2/cygwin_cmake/share/cmake-3.26.4/Modules/CMakeCommonLanguageInclude.cmake"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/cygdrive/c/Users/\u0414\u0438\u043c\u0430/CLionProjects/C/kp9/cmake-build-debug",
+		"source" : "/cygdrive/c/Users/\u0414\u0438\u043c\u0430/CLionProjects/C/kp9"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

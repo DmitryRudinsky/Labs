@@ -1,0 +1,4 @@
+/cygdrive/c/Users/Дима/CLionProjects/C/cmake-build-debug/CMakeFiles/kp6.dir
+/cygdrive/c/Users/Дима/CLionProjects/C/cmake-build-debug/CMakeFiles/proc.dir
+/cygdrive/c/Users/Дима/CLionProjects/C/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/Дима/CLionProjects/C/cmake-build-debug/CMakeFiles/rebuild_cache.dir

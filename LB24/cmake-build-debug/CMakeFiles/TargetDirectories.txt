@@ -1,0 +1,3 @@
+/cygdrive/c/Users/Дима/CLionProjects/C/LB24/cmake-build-debug/CMakeFiles/LB24.dir
+/cygdrive/c/Users/Дима/CLionProjects/C/LB24/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/Дима/CLionProjects/C/LB24/cmake-build-debug/CMakeFiles/rebuild_cache.dir
