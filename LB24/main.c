@@ -1,6 +1,3 @@
-//
-// Created by Дима on 29.05.2024.
-//
 #include "hood.h"
 
 int main() {
@@ -24,9 +21,22 @@ int main() {
     while (*ptr != '\0') {
         Token token = create_token(&ptr);
         work_with_token(token, operationStack, treeStack);
-        print_operation_stack(operationStack);
-        print_tree_stack(treeStack);
     }
+
+    print_operation_stack(operationStack);
+    print_tree_stack(treeStack);
+
+    int levels = count_levels(*treeStack->node);
+    int operands = count_operands(*treeStack->node);
+    int variables = count_variables(*treeStack->node);
+    int constants = count_constants(*treeStack->node);
+    int operations = count_operations(*treeStack->node);
+
+    printf("Число уровней дерева выражения: %d\n", levels);
+    printf("Количество операндов: %d\n", operands);
+    printf("Количество переменных: %d\n", variables);
+    printf("Количество констант: %d\n", constants);
+    printf("Количество операций: %d\n", operations);
 
 
     free(expression_without_spaces);

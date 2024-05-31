@@ -1,7 +1,3 @@
-//
-// Created by Дима on 29.05.2024.
-//
-
 #include "stack.h"
 
 Operation_stack_handle operationStack_init(int cap){

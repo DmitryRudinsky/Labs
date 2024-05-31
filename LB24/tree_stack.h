@@ -1,7 +1,3 @@
-//
-// Created by Дима on 30.05.2024.
-//
-
 #include "tree.h"
 #ifndef C_TREE_STACK_H
 #define C_TREE_STACK_H

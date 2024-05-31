@@ -1,7 +1,3 @@
-//
-// Created by Дима on 30.05.2024.
-//
-
 #include "tree.h"
 
 char* remove_spaces(const char* input_string) {

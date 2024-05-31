@@ -1,7 +1,3 @@
-//
-// Created by Дима on 30.05.2024.
-//
-
 #include "tree_stack.h"
 
 TreeStack_handle treeStack_init(int cap){
