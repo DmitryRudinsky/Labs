@@ -5,8 +5,10 @@
 
 int main() {
 
-    char *current_expression = "(A + 10) - 155 * B ^ 2";
-
+//    char *current_expression = "(A + 10) - 155 * B ^ 2";
+//    char *current_expression = "(A + 10) - (155 * B) ^ 2";
+//    char *current_expression = "1 + 10 - 155 * 2 ^ 2";
+    char *current_expression = "A * 12 + 3 - (B / 4) * 3 + 42 / 2 - 10 + (C + (D - 4))";
     if (is_valid_expression(current_expression)) {
         printf("Выражение корректное.\n");
     } else {
@@ -23,9 +25,8 @@ int main() {
         Token token = create_token(&ptr);
         work_with_token(token, operationStack, treeStack);
         print_operation_stack(operationStack);
+        print_tree_stack(treeStack);
     }
-
-    print_tree_stack(treeStack);
 
 
     free(expression_without_spaces);

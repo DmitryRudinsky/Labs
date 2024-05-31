@@ -47,5 +47,6 @@ int char_to_int(char c);
 Token create_token(const char **expr_ptr);
 TreeNode* create_tree_node(Token token);
 bool is_valid_expression(const char *expression);
+bool is_int_or_comb(Token_type tokenType);
 
 #endif //C_TREE_H

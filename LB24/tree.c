@@ -185,3 +185,7 @@ bool is_valid_expression(const char *expression) {
 
     return true;
 }
+
+bool is_int_or_comb(Token_type tokenType){
+    return tokenType == INT || tokenType == COMBINED;
+}

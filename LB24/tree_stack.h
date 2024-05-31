@@ -26,6 +26,7 @@ void shrink_treeStack_buffer(TreeStack_handle treeStack);
 bool need_to_shrink_treeStack(TreeStack_handle treeStack);
 TreeNode *treeStack_pop(TreeStack_handle treeStack);
 TreeNode *get_last_treeNode(TreeStack_handle treeStack);
+TreeNode *get_penultimate_treeNode(TreeStack_handle treeStack);
 void print_tree_stack(TreeStack_handle treeStack);
 void print_tree(TreeNode* node, int level);
 

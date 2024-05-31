@@ -93,6 +93,15 @@ TreeNode *get_last_treeNode(TreeStack_handle treeStack) {
     return treeStack->node[treeStack->size - 1];
 }
 
+TreeNode *get_penultimate_treeNode(TreeStack_handle treeStack) {
+    if (treeStack->size == 0) {
+        printf("Ошибка: стек пуст\n");
+        exit(EXIT_FAILURE);
+    }
+    return treeStack->node[treeStack->size - 2];
+}
+
+
 
 
 void print_tree_stack(TreeStack_handle treeStack) {
