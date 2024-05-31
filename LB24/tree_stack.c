@@ -121,9 +121,9 @@ void print_tree(TreeNode *node, int level) {
     } else if (node->token.type == COMBINED) {
         printf("%s\n", node->token.name);
     } else {
-        printf("%c\n", node->token.name);
+        printf("%s\n", node->token.name);
     }
 
-    print_tree(node->left, level + 1);
+    print_tree((TreeNode *) node->left, level + 1);
 }
 

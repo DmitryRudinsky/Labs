@@ -4,7 +4,7 @@
 
 #include "tree.h"
 
-char *remove_spaces(const char *input_string) {
+char* remove_spaces(const char* input_string) {
     int input_length = strlen(input_string);
     int count = 0;
     for (int i = 0; i < input_length; i++) {
@@ -13,7 +13,7 @@ char *remove_spaces(const char *input_string) {
         }
     }
 
-    char *result = (char *) malloc(count + 1);
+    char* result = (char*)malloc(count + 2);  // Добавляем 2 для символа '\0' и дополнительного пробела в конце
     if (result == NULL) {
         perror("Ошибка выделения памяти");
         exit(EXIT_FAILURE);
@@ -25,6 +25,7 @@ char *remove_spaces(const char *input_string) {
             result[j++] = input_string[i];
         }
     }
+    result[j++] = '_';
     result[j] = '\0';
 
     return result;
@@ -51,7 +52,9 @@ Token_type determine_type_of_char(char symbol) {
         return INT;
     } else if (isalpha(symbol)) {
         return COMBINED;
-    } else {
+    }else if (symbol == '_') {
+        return LAST_SPACE;
+    }else {
         return NONE;
     }
 }
@@ -99,7 +102,10 @@ Token create_token(const char **expr_ptr) {
         }
         token.name[i] = '\0';
         token.type = COMBINED;
-    } else {
+    } else if(*expr == ' '){
+        token.type = determine_type_of_char(*expr);
+    }
+    else {
         token.type = determine_type_of_char(*expr);
         if (token.type != NONE) {
             token.name[0] = *expr;

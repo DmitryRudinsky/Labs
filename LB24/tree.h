@@ -23,7 +23,8 @@ typedef enum {
     RAISE_TO_POWER,
     UNARY_MINUS,
     OPENING_BRACKET,
-    CLOSING_BRACKET
+    CLOSING_BRACKET,
+    LAST_SPACE
 } Token_type;
 
 typedef struct {
