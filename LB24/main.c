@@ -6,6 +6,8 @@ int main() {
 //    char *current_expression = "(A + 10) - (155 * B) ^ 2";
 //    char *current_expression = "1 + 10 - 155 * 2 ^ 2";
     char *current_expression = "A * 12 + 3 - (B / 4) * 3 + 42 / 2 - 10 + (C + (D - 4))";
+//    char *current_expression = "A * 12) ++ 3 - (B / 4) * 3 + 42 / 2 AA - 10 + (C + (D - 4))";
+
     if (is_valid_expression(current_expression)) {
         printf("Выражение корректное.\n");
     } else {
@@ -38,7 +40,8 @@ int main() {
     printf("Количество констант: %d\n", constants);
     printf("Количество операций: %d\n", operations);
 
-
+    destroy_operationStack(operationStack);
+    destroy_treeStack(treeStack);
     free(expression_without_spaces);
     return 0;
 }

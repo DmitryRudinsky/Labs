@@ -1,7 +1,3 @@
-//
-// Created by Дима on 25.05.2024.
-//
-
 #ifndef C_QUEUE_H
 #define C_QUEUE_H
 
